@@ -1,0 +1,91 @@
+# Build artifacts and dependencies
+**/build/
+**/target/
+**/artifacts/
+**/bin/
+**/node_modules/
+**/dist/
+**/out/
+
+# Compiled contracts and binaries
+*.so
+*.dylib
+*.dll
+*.exe
+*.wasm
+
+# Move build artifacts
+**/.aptos/
+**/build.yaml
+**/BuildInfo.yaml
+
+# Rust artifacts
+Cargo.lock
+**/.cargo/
+
+# Go artifacts
+go.sum
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment and config files
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.json
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Cache and temporary files
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.temp
+
+# System files
+Thumbs.db
+.Trash-*
+
+# Git files
+.git/
+
+# Test coverage and reports
+coverage/
+*.coverage
+.nyc_output/
+
+# State files that might contain sensitive data
+state.json
+**/state.json
+
+# Keys and sensitive files (be careful with these patterns)
+*.key
+*.pem
+keystore/
+keys/
+wallets/
+
+# Protocol buffer compiled files
+*.pb.go
+*.protoset
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Foundry
+cache/
+broadcast/
